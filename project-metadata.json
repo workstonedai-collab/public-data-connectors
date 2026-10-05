@@ -1,0 +1,15 @@
+{
+  "repository": "public-data-connectors",
+  "title": "Public Data Connectors · 公开数据连接器",
+  "description": "World Bank, Eurostat and GLEIF adapters for research pipelines. Preserve units, periods, missing values and provenance; export JSON/CSV with explicit failures. 公开数据采集与规范化，保留单位、期间、缺失状态及来源，支持 JSON/CSV 和明确的错误结果。",
+  "license": "Apache-2.0",
+  "visibility": "public",
+  "topics": [
+    "open-data",
+    "world-bank",
+    "eurostat",
+    "gleif",
+    "data-pipeline",
+    "data-provenance"
+  ]
+}

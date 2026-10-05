@@ -1,0 +1,47 @@
+{
+  "name": "public-data-connectors",
+  "version": "0.1.0",
+  "private": false,
+  "license": "Apache-2.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "exports": "./src/index.js",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/index.js",
+    "demo": "node examples/offline.js",
+    "live": "node examples/live.js"
+  },
+  "dependencies": {},
+  "files": [
+    "src",
+    "docs",
+    "examples",
+    "README.md",
+    "README.zh-CN.md",
+    "CONTRIBUTING.md",
+    "AGENTS.md",
+    "test",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "description": "World Bank, Eurostat and GLEIF adapters for research pipelines. Preserve units, periods, missing values and provenance; export JSON/CSV with explicit failures. 公开数据采集与规范化，保留单位、期间、缺失状态及来源，支持 JSON/CSV 和明确的错误结果。",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/workstonedai-collab/public-data-connectors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/workstonedai-collab/public-data-connectors/issues"
+  },
+  "homepage": "https://github.com/workstonedai-collab/public-data-connectors#readme",
+  "keywords": [
+    "open-data",
+    "world-bank",
+    "eurostat",
+    "gleif",
+    "data-pipeline",
+    "data-provenance"
+  ]
+}
